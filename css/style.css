@@ -12,10 +12,20 @@ ul{
     list-style-type: none;
     margin: 0;
 }
+#header{
+    position: relative;
+}
+
 /*start nav***/
 .nav{
-    padding: 2rem 0;
+    padding: 1.5rem 0;
     background-color: #DDC7BB;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 12;
+ 
 }
 .menu-btn span{
     width: 25px;
@@ -283,7 +293,9 @@ ul{
     font-style: ExtraBold;
     margin-bottom: 3rem;
 }
-
+.pagination-my-slider{
+    cursor: pointer;
+}
 .star{
     padding: 0.2rem;
     background-color: #FFFFFF;
