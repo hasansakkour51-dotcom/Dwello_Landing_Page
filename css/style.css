@@ -1,0 +1,683 @@
+/***start Global*/
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+}
+/*start nav***/
+.nav{
+    padding: 2rem 0;
+    background-color: #DDC7BB;
+}
+.menu-btn span{
+    width: 25px;
+    height: 5px;
+    background-color: #2B1B12;
+    margin: 2px;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+}
+
+.menu-btn{
+    display: none;
+}
+#header{
+    min-height: 100vh;
+}
+.main-list li a{
+    color: #2B1B12;
+    font: 700 1.3rem/100%  'Montserrat', sans-serif;
+    font-style: bold;
+}
+.btn-of-nav button{
+    background: transparent;
+    border: none;
+}
+.static-btn{
+    padding: 1rem 1.5rem;
+    background-color: #2B1B12;
+    color: #FFFFFF;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    font: 600 1rem/100% 'Montserrat', sans-serif;
+}
+.line{
+    width: 1.5rem;
+    height: 5px;
+    background-color: #2B1B12;
+}
+/****hidden nav for responsive****/
+.offcanvas-body .navbar-nav .nav-item .nav-link{
+    color: #FFFFFF;
+}
+.btn-close-white{
+    border: none;
+    font-size: 1.5rem;
+}
+.navbar-toggler{
+    outline: none;
+    position: absolute;
+    top: 2rem;
+    right: 0rem;
+    border: none;
+}
+/***start hero section****/
+.hero-title h1{
+    color: #2B1B12;
+    font: 800 4.5rem/100% 'Montserrat', sans-serif;
+    font-style: ExtraBold;
+}
+.hero-title h1 span{
+    font-size: 4rem;
+}
+.hero-title p{
+    color: #4F3527;
+    font: 700 1.2rem/160% 'Montserrat', sans-serif;
+    font-style: Bold;
+}
+.hero-section{
+    background-color: #DDC7BB;
+}
+/***start register-on-home*****/
+.register-on-home form{
+    background-color: #DDC7BB;
+    box-shadow: 0px 8px 30px 0px #2B1B121F;
+    padding-block: 3rem;
+    padding-inline: 1rem;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+.register-on-home form .input input{
+   padding: 1rem 2rem;
+   border-radius: 0.5rem;
+   -webkit-border-radius: 0.5rem;
+   -moz-border-radius: 0.5rem;
+   -ms-border-radius: 0.5rem;
+   -o-border-radius: 0.5rem;
+   border: 1px solid #FBF5F1;
+   background-color: #FBF5F1;
+}
+.register-on-home form .input input::placeholder{
+    color: #695346;
+    font: 700 1.2rem/100% 'Montserrat', sans-serif;
+    font-style: Bold;
+}
+.register-on-home form .input i{
+    transform: translateX(-2.6rem);
+    color: #695346;
+    
+    -webkit-transform: translateX(-2.6rem);
+    -moz-transform: translateX(-2.6rem);
+    -ms-transform: translateX(-2.6rem);
+    -o-transform: translateX(-2.6rem);
+}
+/****start counts-part-title****/
+.counts-part-title h2{
+    color: #2B1B12;
+    font: 800 2.5rem/140% 'Montserrat', sans-serif;
+    font-style: ExtraBold;
+}
+.counts-part-title p{
+    color: #4F3527;
+    font: 700 1.2rem/160% 'Montserrat', sans-serif;
+    font-style: bold;
+}
+.the-counts .count h2{
+    color: #4F3527;
+    font: 700 3rem/100% 'Montserrat', sans-serif;
+    font-style: bold;
+}
+.the-counts .count p{
+    color: #4F3527;
+    font: 600 1.2rem/100% 'Montserrat', sans-serif;
+}
+.counts-part-img img{
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+/***start choose us****/
+.choose-us{
+    margin-block: 7rem;
+}
+.choose-us-title h3{
+    color: #2B1B12;
+    font: 800 2.3rem/140% 'Montserrat', sans-serif;
+}
+
+.choose-us-title p{
+    color: #4F3527;
+    font: 700 1.2rem/160% 'Montserrat', sans-serif;
+    font-style: bold;
+    text-align: center;
+}
+.img-of-card1-choose::before{
+    content: url('/image/map\ pin.png');
+    margin-right: -4rem;
+    margin-top: 0.8rem;
+    position: relative;
+    z-index: 2;
+}
+.img-of-card2-choose::before{
+    content: url('/image/service.png');
+    margin-right: -4rem;
+    margin-top: 0.8rem;
+    position: relative;
+    z-index: 2;
+}
+.img-of-card3-choose::before{
+    content: url('/image/document.png');
+    margin-right: -3.9rem;
+    margin-top: 0.8rem;
+    position: relative;
+    z-index: 2;
+}
+.img-of-card4-choose::before{
+    content: url('/image/handshake.png');
+    margin-right: -4rem;
+    margin-top: 0.8rem;
+    position: relative;
+    z-index: 2;
+}
+.card-choose-us {
+    background-color: #DDC7BB;
+    box-shadow: 0px 4px 30px 0px #2B1B121F;
+    border-radius: 1.2rem;
+    -webkit-border-radius: 1.2rem;
+    -moz-border-radius: 1.2rem;
+    -ms-border-radius: 1.2rem;
+    -o-border-radius: 1.2rem;
+    padding: 1rem;
+    /*flex-wrap: wrap;*/
+}
+.card-choose-us h4{
+    color: #2B1B12;
+    font: 700 1.2rem/100% 'Montserrat', sans-serif;
+    font-style: bold;
+}
+.card-choose-us p{
+    color: #4F3527;
+    font: 600 1rem/130% 'Montserrat', sans-serif;
+}
+/***start our-popular-residences****/
+.our-popular-residences{
+    margin-bottom: 5rem;
+}
+.img-card-popular img
+{
+    width: 100%;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    
+}
+.our-popular-title h4{
+    color: #2B1B12;
+    font: 800 2.25rem/140% 'Montserrat', sans-serif;
+    font-style: ExtraBold;
+}
+.card-popular-title{
+    background-color: #DDC7BB;
+    padding: 1rem;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.card-popular-title{
+    border-radius: 0 0 1rem 1rem;
+    -webkit-border-radius: 0 0 1rem 1rem;
+    -moz-border-radius: 0 0 1rem 1rem;
+    -ms-border-radius: 0 0 1rem 1rem;
+    -o-border-radius: 0 0 1rem 1rem;
+}
+.sign-up-home .static-btn{
+    padding: 1rem;
+}
+.location-home a,
+.location-home i{
+    color: #2B1B12;
+}
+.location-home a{
+    font: 700 1.3rem/100% 'Montserrat', sans-serif;
+    font-style: Bold;
+}
+.price-home p{
+    color: #4F3527;
+    font: 700 1.5rem/100% 'Montserrat', sans-serif;
+    font-style: Bold;
+}
+/****start about dwello***/
+.about-dwello{
+    background-color: #FBF5F1;
+    padding-block: 3rem;
+}
+.about-dwello-title h4{
+    color: #2B1B12;
+    font: 800 2.25rem/140% 'Montserrat', sans-serif;
+    font-style: ExtraBold;
+    margin-bottom: 3rem;
+}
+
+.star{
+    padding: 0.2rem;
+    background-color: #FFFFFF;
+    border-radius: 0.3rem;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    -ms-border-radius: 0.3rem;
+    -o-border-radius: 0.3rem;
+}
+.star i{
+    color: #FFC71E;
+}
+.img-slide img{
+    border-radius: 1rem 1rem 0 0;
+    -webkit-border-radius: 1rem 1rem 0 0;
+    -moz-border-radius: 1rem 1rem 0 0;
+    -ms-border-radius: 1rem 1rem 0 0;
+    -o-border-radius: 1rem 1rem 0 0;
+    width: 100%;
+}
+.img-pepole img{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.card-slide-title{
+    background-color: #DDC7BB;
+    padding: 1rem;
+    border-radius: 0 0 1rem 1rem;
+    -webkit-border-radius: 0 0 1rem 1rem;
+    -moz-border-radius: 0 0 1rem 1rem;
+    -ms-border-radius: 0 0 1rem 1rem;
+    -o-border-radius: 0 0 1rem 1rem;
+}
+.name-pepole a{
+    color: #2B1B12;
+    font: 700 1.3rem/100% 'Montserrat', sans-serif;
+    font-style: Bold;
+}
+.name-pepole p{
+    color: #2B1B12;
+    font: 600 1rem/100% 'Montserrat', sans-serif;
+}
+.paragraph-slide-title p{
+    color: #4F3527;
+    font: 600 1rem/100% 'Montserrat', sans-serif;
+}
+.pagination-my-slider::before{
+    content:"<";
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-weight: bold;
+    transform: translateX(3rem);
+    -webkit-transform: translateX(3rem);
+    -moz-transform: translateX(3rem);
+    -ms-transform: translateX(3rem);
+    -o-transform: translateX(3rem);
+}
+.pagination-my-slider::after{
+    content:">";
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-weight: bold;
+    transform: translateX(-3rem);
+    -webkit-transform: translateX(-3rem);
+    -moz-transform: translateX(-3rem);
+    -ms-transform: translateX(-3rem);
+    -o-transform: translateX(-3rem);
+}
+.pagination-my-slider .swiper-pagination-bullet:first-child{
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #2B1B12;
+   
+}
+.pagination-my-slider .swiper-pagination-bullet:last-child{
+    background-color: #2B1B12;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #2B1B12;
+}
+
+.get-help-from-us{
+    padding-block: 7rem;
+}
+.title-our-get-help-form-us h5{
+    color: #2B1B12;
+    font: 800 2.5rem/140% 'Montserrat', sans-serif;
+    font-style: ExtraBold;
+    text-align: center;
+}
+.chat-team a,
+.browse-our-faq a{
+    color: #543E32;
+    font: 700 1rem/100% 'Montserrat', sans-serif;
+    font-style: bold;
+}
+.input input{
+    padding: 0.8rem 3rem;
+    flex-grow: 1;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    background-color: #DDC7BB;
+    border: none;
+}
+.input input::placeholder{
+    color: #543E32;
+    font: 600 1rem/100%  'Montserrat', sans-serif;
+}
+.input i{
+    color: #543E32;
+    margin-top: 0.2rem;
+    transform: translateX(2rem);
+    -webkit-transform: translateX(2rem);
+    -moz-transform: translateX(2rem);
+    -ms-transform: translateX(2rem);
+    -o-transform: translateX(2rem);
+}
+/****start footer*****/
+#footer {
+    background-color: #DDC7BB;
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+}
+#footer h6{
+    color: #2B1B12;
+    font: 700 1.4rem/100%  'Montserrat', sans-serif;
+    font-style: bold;
+}
+#footer a{
+    color: #4F3527;
+    font: 700 1.2rem/100% 'Montserrat', sans-serif;
+    font-style: bold;
+}
+#footer p{
+    font: 700 1.2rem/130% 'Montserrat', sans-serif;
+    font-style: Bold;
+   color: #4F3527;
+
+}
+/****start Responsive Media query*****/
+
+/**medium***/
+@media (min-width: 573px) and (max-width: 768px) {
+    .cards-of-choose{
+        display: grid !important;
+        grid-template-columns: repeat(2,auto);
+        grid-template-rows: repeat(2,auto);
+    }
+    .choose-us-title p{
+        width: 100%;
+    }
+    .register-on-home .col-3{
+        width: 100%;
+        
+    }
+    .register-on-home form{
+        gap: 2rem;
+    }
+    .card-slide{
+        width: 100%;
+    }
+}
+/****mobile***/
+@media (max-width: 573px) {
+    .nav .row .col-6{
+        display: none;
+    }
+    
+    .main-list
+    {
+       display: none;
+    }
+    .nav .static-btn{
+        display: none !important;
+    }
+    .btn-of-nav{
+        justify-content: flex-start;
+    }
+    .hero-section{
+        min-height: 100vh;
+    }
+    .hero-section .row{
+        flex-direction: column-reverse;
+        flex-basis: 100%;
+    }
+    .hero-section .hero-title{
+    margin-top: 1.5rem;
+    text-align: center;
+    
+    }
+    .hero-title h1,
+    .hero-title h1 span{
+        font-size: 2rem;
+    }
+    .hero-section .mobile{
+        width: 100%;
+    }
+    .hero-title p{
+        font-size: 1rem;
+        
+    }
+    .register-on-home form{
+        flex-direction: column;
+        transform: translateY(-10%);
+        -webkit-transform: translateY(-10%);
+        -moz-transform: translateY(-10%);
+        -ms-transform: translateY(-10%);
+        -o-transform: translateY(-10%);
+}
+    .register-on-home .row .col-11{
+        padding: 0;
+    }
+    .register-on-home form .input{
+        margin-bottom: 1rem;
+        width: 80%;
+    }
+    .register-on-home form .static-btn{
+        padding: 1rem;
+        margin-top: 1rem;
+    }
+    .nav .row .mobile{
+        width: 20%;
+    }
+    .container{
+        max-width: 100%;
+    }
+    .counts-of-houses .row{
+        flex-direction: column;
+    }
+    .counts-of-houses .row .col-5{
+        width: 100%;
+    }
+    .counts-of-houses .row .col-7{
+        width: 100%;
+    }
+    .counts-part-title{
+        text-align: left;
+        margin-top: 2rem;
+        align-items: center;
+    }
+    .counts-part-title h2
+   {    width: 100%;
+        font-size: 1.6rem;
+        text-align: left;
+    }
+    .counts-part-title p{
+        font-size: 0.8rem;
+        text-align: left;
+        width: 100%;
+    }
+    .the-counts{
+        justify-content: space-around !important;
+    }
+    .the-counts .count{
+     align-items: center !important;   
+    }
+    .the-counts .count p{
+        font-size: 1rem;
+    }
+    .the-counts .count h2{
+        font-size: 2rem;
+    }
+    .choose-us-title h3{
+        font-size: 1.5rem;
+        text-align: left;
+        width: 100%;
+    }
+    .choose-us-title p{
+        font-size: 0.8rem;
+        width: 100%;
+        text-align: left;
+    }
+    .our-popular-residences{
+        margin: 0;
+    }
+    .cards-of-choose{
+        flex-direction: column;
+    }
+    .cards-of-choose .col-3{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .our-popular-title h4{
+        font-size: 1.5rem;
+    }
+    .our-popular-title p{
+        font-size: 0.8rem;
+    }
+    .about-dwello{
+        padding: 0;
+    }
+    .cards-of-popular .card-popular{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .about-dwello-title h4{
+        font-size: 1.5rem;
+    }
+    .about-dwello-title p{
+        font-size: 0.8rem;
+    }
+    .about-dwello-title{
+        width: 100%;
+    }
+    .choose-us{
+        
+    }
+    
+    .img-slide img{
+        max-width: 100%;
+    }
+    .pepole-details{
+        justify-content: flex-start !important;
+        gap: 2rem;
+    }
+    .get-help-from-us .col-6{
+        text-align: center;
+        width: 100%;
+    }
+    .title-our-get-help-form-us h5{
+        font-size: 1.6rem;
+    }
+    .title-our-get-help-form-us p{
+        font-size: 0.8rem;
+    }
+    .our-link{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .form-us{
+        width: 100%;
+        gap: 2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    .form-us .input{
+        width: 80%;
+    }
+    #footer{
+        padding-bottom: 1rem;
+    }
+
+    #footer .row .col-4{
+        width: 100%;
+       margin-bottom: 3rem;
+    }
+    #footer .row{
+        flex-wrap: wrap;
+    }
+    #footer .row .col-2{
+        width: 50%;
+        margin-bottom: 3rem;
+
+    }
+    #footer .row .col-2 a{
+        margin-bottom: 0.6rem;
+    }
+    #footer .row .col-2:last-child{
+        margin: 0;
+    }
+   .footer .col-2 .mt{
+        margin-block-end: 2rem;
+    }
+}
+/***larg***/
+@media (min-width: 768px) and (max-width: 992px) {
+    .card-slide{
+        width: 100%;
+    }
+    .about-dwello .swiper-slide{
+        width: 100%;
+    }
+    .card-popular{
+        width: 100%;
+    }
+    .counts-part-img img{
+        width: 100%;
+    }
+    .register-on-home .input{
+        margin-bottom: 1.5rem;
+        width: 75%;
+    }
+}
